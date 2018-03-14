@@ -4,17 +4,16 @@ import Header from './Header/Header';
 import Section from './Section/Section';
 import Hobbies from './Hobbies/Hobbies';
 
-class App extends Component {
-  render() {
-    return ( 
+const itemF = ['leer','codear','dormir'];
+const text = "Soy estudiante de Laboratoria , y en dos semanas y media seré front-end developer junior :)"
+const saludo = "soy el header"
+const  App = () => ( 
     <div>
     <Header/>
-    <Section />
-    <Hobbies items={['leer','codear','dormir']}/>
+    <Hobbies itemF={itemF}/>
     </div>
-    )
-  }
-}
+    
+)
 
 export default App
 
