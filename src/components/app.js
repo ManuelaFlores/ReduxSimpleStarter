@@ -10,6 +10,7 @@ const saludo = "soy el header"
 const  App = () => ( 
     <div>
     <Header/>
+    <Section text={text}/>
     <Hobbies itemF={itemF}/>
     </div>
     
